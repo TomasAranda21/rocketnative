@@ -58,6 +58,7 @@ export default function Form({
           disabled={loading}>
           {loading ? "Loading..." : "Join Waitlist!"}
         </EnhancedButton>
+        <p className="text-xs text-muted-foreground text-center mt-2">No spam, just updates about RocketNative!</p>
       </motion.div>
       <motion.div
         variants={itemVariants}
